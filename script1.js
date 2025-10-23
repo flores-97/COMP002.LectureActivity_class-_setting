@@ -74,3 +74,61 @@ console.log("********************************************************");
 console.log("Modulo");
 console.log(12 % 5); //modulo
 
+
+console.log("********************************************************");
+console.log("Comparing Values");
+//comparing values
+
+console.log("********************************************************");
+console.log("equal to (==)") // equal to (==)
+console.log(5 == 5); //true
+console.log("5" == 5); //true
+
+console.log("********************************************************");
+//equal to with type check (===)
+console.log("equal to with type check (===)");
+console.log(5 === 5); //true
+console.log("5" === 5); //false
+
+console.log("********************************************************");
+//not equal to (!=)
+console.log("not equal to (!=)");
+console.log(1 != 5); //true
+console.log(1 != 1); //false
+
+console.log("********************************************************");
+//greater than (>)
+console.log("greater than (>)");
+console.log(5 > 1); //true
+console.log( 5 > 5); //false
+
+console.log("********************************************************");
+//greater than or equal to (>=)
+console.log("greater than or equal to (<=)");
+console.log(1 >= 5); //true
+console.log(5 >= 5); //true
+
+console.log("********************************************************");
+//less than (<)
+console.log("less than (<)");
+console.log(1 < 5); //true
+console.log(5 < 5); //false
+
+console.log("********************************************************");
+//less than or equal to (<=)
+console.log("less than or equal to (<=)");
+console.log(1 <= 5); //true
+console.log(5 <= 5); //true
+
+console.log("********************************************************");
+// And &&
+console.log(true && false); //false
+console.log(5>1 && 5<1) //false
+console.log(true && true); //true
+
+console.log("********************************************************");
+// Or ||
+console.log(true || false); //true
+console.log(true || true); //true
+console.log(false || false); //false
+
